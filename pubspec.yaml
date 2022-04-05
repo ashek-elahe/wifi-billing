@@ -1,0 +1,64 @@
+name: real_state
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  get_it: ^6.0.0
+  provider: ^5.0.0
+  dio: ^4.0.0-prev2
+  shared_preferences: ^2.0.5
+  shimmer_animation: ^2.0.0
+  image_picker: ^0.7.4
+  path_provider: ^2.0.1
+  path: ^1.8.0
+  intl: ^0.17.0
+  motion_toast: ^1.6.0
+  url_launcher: ^6.0.20
+  sqflite: ^2.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/language/
+    - assets/svg/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Lato-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Lato-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Lato-Black.ttf
+          weight: 500
+        - asset: assets/fonts/Lato-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+
